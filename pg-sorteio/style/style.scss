@@ -1,0 +1,59 @@
+//colors
+
+$black: #1a1a1a;
+$white: #edeaef;
+$green1: #03BFB5;
+$green2: #018076;
+
+//
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: $black;
+}
+
+.container{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+
+    background-color: $white;
+
+    h1{
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    button{
+        padding: 7px;
+        text-align: center;
+        background-color: $green1;
+        border: none;
+        color: white;
+        font-size: 16px;
+
+
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &:hover{
+            background-color: $green2;
+            transition-duration: 0.5s;
+        }
+    }
+}
