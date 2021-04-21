@@ -32,28 +32,32 @@ body{
     background-color: $white;
 
     h1{
+        font-family: 'Source Sans Pro', sans-serif;
         text-align: center;
         padding: 20px;
         font-size: 20px;
     }
 
     button{
-        padding: 7px;
-        text-align: center;
-        background-color: $green1;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 70px;
+        height: 35px;
         border: none;
         color: white;
-        font-size: 16px;
-
-
+        background-color: #3587D0;
+        border-radius: 4px;
+        transition: ease 0.3s;
+        outline: none;
+    
         position: absolute;
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-
+    
         &:hover{
-            background-color: $green2;
-            transition-duration: 0.5s;
+            box-shadow:inset 70px 0 0 0 #42fbf2;
+            color: black;
+            cursor: pointer;
         }
     }
 }

@@ -28,18 +28,23 @@ body {
 }
 
 .container h1 {
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   padding: 20px;
   font-size: 20px;
 }
 
 .container button {
-  padding: 7px;
-  text-align: center;
-  background-color: #03BFB5;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70px;
+  height: 35px;
   border: none;
   color: white;
-  font-size: 16px;
+  background-color: #3587D0;
+  border-radius: 4px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  outline: none;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -48,8 +53,9 @@ body {
 }
 
 .container button:hover {
-  background-color: #018076;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-box-shadow: inset 70px 0 0 0 #42fbf2;
+          box-shadow: inset 70px 0 0 0 #42fbf2;
+  color: black;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
